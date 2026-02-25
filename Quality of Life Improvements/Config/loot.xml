@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+  <!-- PLAYER dropped backpacks : To cover a full backpack dropped and items in your toolbar -->
+  <!-- <set xpath="/lootcontainers/lootcontainer[@name='playerBackpack']/@size">13,13</set> -->
+
+  <!-- Player crafted Writable Storage -->
+  <set xpath="/lootcontainers/lootcontainer[@name='playerWoodWritableStorage']/@size">12,6</set>   <!-- Default 8,6 -->
+  <set xpath="/lootcontainers/lootcontainer[@name='playerIronWritableStorage']/@size">12,9</set>   <!-- Default 8,8 -->
+  <set xpath="/lootcontainers/lootcontainer[@name='playerSteelWritableStorage']/@size">12,12</set> <!-- Default 8,10 -->
+
+  <!-- Vehicle Storage -->  
+  <set xpath="//lootcontainer[@name='vehicle4x4Truck']/@size">9,10</set>  <!-- Default size 9,9 -->
+  <set xpath="//lootcontainer[@name='vehicleGyrocopter']/@size">9,8</set> <!-- Default size 9,5 -->
+  <set xpath="//lootcontainer[@name='vehicleMotorcycle']/@size">9,6</set> <!-- Default size 9,4 -->
+  <set xpath="//lootcontainer[@name='vehicleMinibike']/@size">9,4</set>   <!-- Default size 9,3 -->
+  <set xpath="//lootcontainer[@name='vehicleBicycle']/@size">9,2</set>    <!-- Default size 9,1 -->
+  <set xpath="//lootcontainer[@name='roboticDrone']/@size">8,8</set>      <!-- Default size 8,2 -->
+</configs>
